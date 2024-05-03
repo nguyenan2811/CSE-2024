@@ -1,0 +1,99 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  outline: 0;
+}
+
+.wrapper {
+  width: 100%;
+  height: 1200px;
+  background-color: #f3e9ff;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.wrapper .header {
+}
+
+.wrapper .header .header-title {
+  text-align: center;
+  font-size: 50px;
+  color: #532dc9;
+}
+
+.wrapper .header .header-logo {
+  display: block;
+  width: 290px;
+  height: 150px;
+  margin: 30px auto 50px;
+}
+
+.wrapper .content {
+  width: 780px;
+  height: 780px;
+  margin: 0 auto;
+  padding: 30px 30px;
+  background-color: #542dc9dc;
+  color: white;
+  border-radius: 10px;
+  /* border: 1px solid red; */
+}
+
+.wrapper .content h2 {
+  font-size: 30px;
+}
+
+.wrapper .content p {
+  margin-top: 20px;
+  font-size: 18px;
+}
+
+.wrapper .content .text-light {
+  position: relative;
+  padding-left: 15px;
+  color: yellow;
+}
+
+.wrapper .content .text-light::before {
+  content: "";
+  display: block;
+  position: absolute;
+  width: 5px;
+  height: 18px;
+  left: 0;
+  background-color: yellow;
+}
+
+.wrapper .content .text-bold::before {
+  content: "";
+  display: block;
+  position: absolute;
+  width: 5px;
+  height: 38px;
+  left: 0;
+  background-color: yellow;
+}
+
+.wrapper .content .highlight {
+  height: 10px;
+  padding-inline: 8px;
+  border-radius: 10px;
+  color: black;
+  background-color: yellow;
+}
+
+.wrapper .content .content-css {
+  margin-top: 30px;
+}
+
+.wrapper .footer {
+  text-align: center;
+  margin: 30px auto;
+}
+.wrapper .footer .btn-down {
+  padding: 10px 20px;
+  font-size: 20px;
+  border-radius: 10px;
+  border: transparent;
+  background-color: orange;
+}
